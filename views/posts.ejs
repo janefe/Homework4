@@ -29,7 +29,7 @@
 
       document.querySelectorAll(".post").forEach((post) => {
         post.addEventListener("click", (e) => {
-          document.location.href=`/singlepost/${post.dataset.post}`
+          res = document.location.href=`/singlepost/${post.dataset.post}`
         });
       });
 
